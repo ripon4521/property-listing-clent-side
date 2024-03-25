@@ -10,12 +10,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/react-icons": "^1.3.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
     "localforage": "^1.10.0",
+    "lucide-react": "^0.363.0",
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.4",
+    "react-icons": "^5.0.1",
     "react-router-dom": "^6.22.3",
-    "sort-by": "^1.2.0"
+    "sort-by": "^1.2.0",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
@@ -30,5 +38,9 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.1",
     "vite": "^5.2.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/ripon4521/property-listing-clent-side.git",
+  "author": "ripon4521 <riponakondo4521@gmail.com>",
+  "license": "MIT"
 }

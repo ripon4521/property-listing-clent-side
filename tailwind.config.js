@@ -4,8 +4,13 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'opanSans': ["Open Sans", 'sans-serif']
+      }
+    },
   },
   plugins: [require("daisyui")],
 }
