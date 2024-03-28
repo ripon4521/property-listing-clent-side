@@ -1,5 +1,6 @@
 import { useState } from "react";
-import ExploreTabCar from "../ExploreTabCard/ExploreTabCar";
+import ExploreCarosel from "../ExploreCarusel/ExploreCarosel";
+// import ExploreTabCar from "../ExploreTabCard/ExploreTabCar";
 
 
 
@@ -13,10 +14,10 @@ const ExploreProjectsTab = () => {
   };
 
   const tabData = [
-    { label: 'Dubai', content:<ExploreTabCar/>},
-    { label: 'Abu_Dhabi', content: <ExploreTabCar/> },
-    { label: 'Sharah', content:<ExploreTabCar/>},
-    { label: 'Ras_AI_Khaimah', content:<ExploreTabCar/>}
+    { label: 'Dubai', content:<ExploreCarosel/>},
+    { label: 'Abu_Dhabi', content: <ExploreCarosel/> },
+    { label: 'Sharah', content:<ExploreCarosel/>},
+    { label: 'Ras_AI_Khaimah', content:<ExploreCarosel/>}
   ];
 
     return (

@@ -1,5 +1,6 @@
 import Banner from "../Banner/Banner";
 import DawonloadApp from "../DawonloadApp/DawonloadApp";
+import ExploreCarosel from "../ExploreNewProjects/ExploreCarusel/ExploreCarosel";
 import ExploreNewProjects from "../ExploreNewProjects/ExploreNewProjects";
 import Footer from "../Footer/Footer";
 import LookingAdvertise from "../LookingAdvertise/LookingAdvertise";
@@ -17,6 +18,7 @@ const Home = () => {
           <ExploreNewProjects/>
           <LookingAdvertise/>
           <Footer/>
+     
         </div>
     );
 };
