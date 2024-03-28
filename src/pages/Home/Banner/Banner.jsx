@@ -4,7 +4,7 @@ import bannerVideo from '../../../../public/Banner Video/home-ae.mp4'
 import './style.css'
 import { CiSearch } from "react-icons/ci";
 // import Typewriter from 'typewriter-effect/dist/core';
-import { Typewriter, useTypewriter } from 'react-simple-typewriter'
+import {  useTypewriter } from 'react-simple-typewriter'
 
 const Banner = () => {
     const [text] = useTypewriter({
