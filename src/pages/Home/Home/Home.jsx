@@ -6,6 +6,7 @@ import Footer from "../Footer/Footer";
 import LookingAdvertise from "../LookingAdvertise/LookingAdvertise";
 import MarketExplore from "../MarketExplore/MarketExplore";
 import Navbar from "../Navbar/Navbar";
+import PropertyPriceAreea from "../PropertyPriceArea/PropertyPriceAreea";
 import SuperCharge from "../SuperCharge/SuperCharge";
 
 
@@ -18,9 +19,10 @@ const Home = () => {
           <DawonloadApp/>
           <ExploreNewProjects/>
           <MarketExplore/>
+          {/* <PropertyPriceAreea/> */}
           <LookingAdvertise/>
           <Footer/>
-       
+         
         </div>
     );
 };

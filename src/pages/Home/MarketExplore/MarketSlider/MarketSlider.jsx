@@ -46,23 +46,24 @@ export default function App() {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><div>
+        <SwiperSlide>
+            <div className='bg-[#F7F7FC]'>
         <img className='rounded-md' src="https://www.propertyfinder.ae/static/images/homepage/dubai.jpg" alt="" />
         <h1 className='text-2xl font-opanSans mt-2 font-semibold drop-shadow-md'>Abu Dhabi </h1>
         </div> </SwiperSlide>
-        <SwiperSlide><div>
+        <SwiperSlide><div className='bg-[#F7F7FC]'>
         <img className='rounded-md' src="https://www.propertyfinder.ae/static/images/homepage/abu_dhabi.jpg" alt="" />
         <h1 className='text-2xl font-opanSans mt-2 font-semibold drop-shadow-md'>Dubai</h1>
         </div> </SwiperSlide>
-        <SwiperSlide><div>
+        <SwiperSlide><div className='bg-[#F7F7FC]'>
         <img className='rounded-md' src="https://www.propertyfinder.ae/static/images/homepage/sharjah.jpg" alt="" />
         <h1 className='text-2xl font-opanSans mt-2 font-semibold drop-shadow-md'>Sharaj</h1>
         </div> </SwiperSlide>
-        <SwiperSlide><div>
+        <SwiperSlide><div className='bg-[#F7F7FC]'>
         <img className='rounded-md' src="https://www.propertyfinder.ae/static/images/homepage/ras_al_khaimah.jpg" alt="" />
         <h1 className='text-2xl font-opanSans mt-2 font-semibold drop-shadow-md'>Ras AI Khaimah</h1>
         </div> </SwiperSlide>
-        <SwiperSlide><div>
+        <SwiperSlide><div className='bg-[#F7F7FC]'>
         <img className='rounded-md' src="https://www.propertyfinder.ae/static/images/homepage/ajman.jpg" alt="" />
         <h1 className='text-2xl font-opanSans mt-2 font-semibold drop-shadow-md'>Ajman</h1>
         </div> </SwiperSlide>
