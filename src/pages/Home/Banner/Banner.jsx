@@ -1,15 +1,26 @@
 
+// import { TypewriterClass } from 'typewriter-effect';
 import bannerVideo from '../../../../public/Banner Video/home-ae.mp4'
 import './style.css'
 import { CiSearch } from "react-icons/ci";
+// import Typewriter from 'typewriter-effect/dist/core';
+import { Typewriter, useTypewriter } from 'react-simple-typewriter'
 
 const Banner = () => {
+    const [text] = useTypewriter({
+        words: ['We Open The Doors'],
+        loop: 0
+      })
+    
+
+
     return (
         <div className=''>
        <video className=''   src={bannerVideo} autoPlay loop muted />
        <div className="  text">
-       <h1 className='md:text-5xl text-3xl font-opanSans font-bold drop-shadow-md text-white p-2'>We Open Doors</h1>
-       <div className='bg-slate-500 bg-opacity-50 md:px-16 px-2 rounded-md py-3 my-10 w-[400px] md:w-full'>
+       <h1 className='md:text-5xl text-3xl font-opanSans font-bold drop-shadow-md text-white p-2'> 
+       {text}</h1>
+       <div className='bg-slate-500 bg-opacity-50 md:px-16 px-2 rounded-md py-3 my-10 w-[350px] md:w-full'>
     
         <div className='bg-white md:px-2 px-1 py-1 rounded-md flex justify-center md:gap-2 '>
             <button className='text-black font-opanSans md:px-4 px-2  border-r hover:text-purple-600'>Rent</button>
