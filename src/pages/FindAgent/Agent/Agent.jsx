@@ -54,7 +54,7 @@ const Agent = () => {
   return (
     <div className="max-w-5xl mx-auto">
 
-<div className="grid grid-cols-2 gap-20">
+<div className="grid  grid-cols-1 lg:grid-cols-2 gap-20 md:pl-28 lg:pl-0 px-2">
 
 <div className="flex max-w-lg overflow-hidden bg-white rounded-lg shadow-lg hover:scale-110 ">
     <div className="w-1/2 bg-cover " style={{backgroundImage: "url('https://www.propertyfinder.ae/agent/0/260/200/MODE/267cfb/199129-72dc3o.jpg?ctr=ae')", }}></div>
