@@ -1,67 +1,45 @@
-import React, { useState } from 'react';
+// Tab.js
+import  { useState } from "react";
 
-const Drop = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const  Drop  = () => {
+  const [activeTab, setActiveTab] = useState(0);
 
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
+  const tabs = [
+    { title: "Tab 1", content: "Content for Tab 1" },
+    { title: "Tab 2", content: "Content for Tab 2" },
+    { title: "Tab 3", content: "Content for Tab 3" },
+    // Add more tabs as needed
+  ];
 
   return (
-    <div className="relative inline-block text-left">
-      <button
-        type="button"
-        onClick={toggleDropdown}
-        className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100"
-      >
-        Dropdown
-        {/* Heroicon name: solid/chevron-down */}
-        <svg
-          className={`-mr-1 ml-2 h-5 w-5 transform transition-transform ${
-            isOpen ? 'rotate-180' : ''
-          }`}
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          aria-hidden="true"
-        >
-          <path
-            fillRule="evenodd"
-            d="M10 3a1 1 0 0 1 .707.293l5 5a1 1 0 0 1-1.414 1.414L10 5.414 5.707 9.707a1 1 0 0 1-1.414-1.414l5-5A1 1 0 0 1 10 3z"
-            clipRule="evenodd"
-          />
-        </svg>
-      </button>
-
-      {isOpen && (
-        <div className="absolute z-10 mt-2 w-56 h-40 overflow-y-auto rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-          <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-            <div className="max-w-xs overflow-x-auto flex flex-col">
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 1</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 2</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 3</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 4</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              <a href="#" className="inline-block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Item 5</a>
-              {/* Add more items as needed */}
+    <div className="bg-gray-100 min-h-screen">
+      <div className="container mx-auto px-4 py-8">
+        <div className="flex flex-col lg:flex-row">
+          <div className="lg:w-1/4">
+            <div className="flex flex-col space-y-2 lg:space-y-0 lg:flex-row lg:space-x-4">
+              {tabs.map((tab, index) => (
+                <button
+                  key={index}
+                  className={`px-4 py-2 rounded-md ${
+                    activeTab === index
+                      ? "bg-blue-500 text-white"
+                      : "bg-white text-gray-800"
+                  }`}
+                  onClick={() => setActiveTab(index)}
+                >
+                  {tab.title}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="lg:w-3/4 mt-4 lg:mt-0">
+            <div className="bg-white p-4 rounded-md shadow-md">
+              <h2 className="text-xl font-bold mb-4">{tabs[activeTab].title}</h2>
+              <p>{tabs[activeTab].content}</p>
             </div>
           </div>
         </div>
-      )}
+      </div>
     </div>
   );
 };

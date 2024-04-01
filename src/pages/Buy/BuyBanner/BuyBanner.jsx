@@ -10,8 +10,8 @@ const BuyBanner = () => {
         <div > 
         <hr  className="m-3 mb-5"/>
             <div className="max-w-6xl mx-auto ">
-            <div className="flex justify-center items-center gap-5 ">
-               <div className="flex justify-center items-center bg-gray-300 py-2 px-2 rounded-md">
+            <div className="flex flex-wrap lg:flex-nowrap md:flex-row justify-center items-center gap-5  ">
+               <div className=" justify-center items-center bg-gray-200 py-2 px-2 rounded-md hidden md:flex">
                <span className="text-2xl px-2 py-[7px] -mr-10 z-10 "><CiSearch/></span>
                 <input type="text" name="" id="" className=" px-4 py-2 rounded-md w-96 placeholder:pl-5" placeholder="City, Coumminty or Building "/>
                </div>
