@@ -5,6 +5,7 @@ import {
 import Home from "../pages/Home/Home/Home";
 import Main from "../Layout/Main";
 import FindAgent from "../pages/FindAgent/FindAgent/FindAgent";
+import Buy from "../pages/Buy/Buy/Buy";
   
 
 
@@ -19,6 +20,9 @@ export const router = createBrowserRouter([
         },{
           path:'/findAgent',
           element:<FindAgent/>
+        },{
+          path:'/buy',
+          element:<Buy/>
         }
       ],
     },

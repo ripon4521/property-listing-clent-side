@@ -6,6 +6,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const navlink = (
     <div className="flex justify-start items-start font-opanSans flex-col lg:flex-row">
+        <li className="hover:text-red-500">
+        <Link to="/buy">Buy</Link>
+      </li>
       <li className="hover:text-red-500">
         <a>Rent</a>
       </li>
@@ -47,7 +50,7 @@ const Navbar = () => {
 
   const largeDeviceNavlink = (
     <>
-      <li className="hover:text-red-500"><Link>Buy</Link> </li>
+      <li className="hover:text-red-500"><Link to="/buy">Buy</Link> </li>
       <li className="hover:text-red-500"><Link>Rent</Link></li>
       <li className="hover:text-red-500"><Link>Commercial</Link></li>
       <li className="hover:text-red-500"><Link>New Projects</Link></li>
