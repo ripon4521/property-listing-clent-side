@@ -2,6 +2,7 @@ import Drop from "./BannerDropDawon/Drop";
 import DropDawon from "./BannerDropDawon/DropDawon";
 import PropertyTypeDropdawon from "./BannerDropDawon/PropertyTypeDropdawon";
 import { CiSearch } from "react-icons/ci";
+import BuyNowBannerButton from "./BuyNowBannerButton/BuyNowBannerButton";
 
 
 
@@ -34,6 +35,9 @@ const BuyBanner = () => {
             <input className="px-4 py-2 bg-red-500 rounded-md font-semibold  cursor-pointer text-white " type="submit" value={"Find"} name="" id="" />
       
             </div>
+            </div>
+            <div className="max-w-6xl mx-auto">
+                <BuyNowBannerButton/>
             </div>
             <hr className="my-5" />
             
