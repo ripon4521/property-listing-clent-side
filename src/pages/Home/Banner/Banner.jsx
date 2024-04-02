@@ -1,6 +1,6 @@
 
 // import { TypewriterClass } from 'typewriter-effect';
-import bannerVideo from '../../../../public/Banner Video/home-ae.mp4'
+import bannerVideo from './home-ae.mp4'
 import './style.css'
 import { CiSearch } from "react-icons/ci";
 // import Typewriter from 'typewriter-effect/dist/core';

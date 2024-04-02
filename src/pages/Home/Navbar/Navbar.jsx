@@ -1,5 +1,5 @@
 import { FaFacebook, FaGoogle } from "react-icons/fa";
-import logo from "../../../../public/favicon.ico";
+import logo from "./favicon.ico";
 import { CiHeart } from "react-icons/ci";
 import { Link } from "react-router-dom";
 

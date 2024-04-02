@@ -1,12 +1,14 @@
-import Drop from "../BuyBanner/BannerDropDawon/Drop";
+
 import BuyBanner from "../BuyBanner/BuyBanner";
+import PropertySale from "../PropertySale/PropertySale/PropertySale";
 
 
 const Buy = () => {
     return (
         <div>
            <BuyBanner/>
-           {/* <Drop/> */}
+           <PropertySale/>
+          
         </div>
     );
 };
