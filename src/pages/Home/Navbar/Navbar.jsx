@@ -12,9 +12,9 @@ const Navbar = () => {
       <Link to="/rent" className="hover:text-red-500">
         <a>Rent</a>
       </Link>
-      <li className="hover:text-red-500">
+      <Link to="/commertial" className="hover:text-red-500">
         <a>Commercial</a>
-      </li>
+      </Link>
       <li className="hover:text-red-500">
         <a>New Projects</a>
       </li>
@@ -52,7 +52,7 @@ const Navbar = () => {
     <>
       <li className="hover:text-red-500"><Link to="/buy">Buy</Link> </li>
       <li className="hover:text-red-500"><Link to="/rent">Rent</Link></li>
-      <li className="hover:text-red-500"><Link>Commercial</Link></li>
+      <li className="hover:text-red-500"><Link to="commertial">Commercial</Link></li>
       <li className="hover:text-red-500"><Link>New Projects</Link></li>
       <li className="hover:text-red-500"><Link to="/findAgent">Find Agents</Link></li>
 
@@ -107,13 +107,13 @@ const Navbar = () => {
               {navlink}
             </ul>
           </div>
-          <div className="flex text-red-500 font-opanSans font-semibold  ">
+          <Link to="/" className="flex text-red-500 font-opanSans font-semibold  ">
             <img className="" src={logo} alt="" />
             <div className="">
               <h2>Property</h2>
               <p>Finder</p>
             </div>
-          </div>
+          </Link>
         </div>
 
         <div className="navbar-center hidden lg:flex">

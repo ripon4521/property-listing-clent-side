@@ -8,7 +8,7 @@ import RouteSelection from "../RouteSelection/RouteSelection";
 const PropertySale = () => {
     return (
         <div >
-            <RouteSelection/>
+            <RouteSelection title={"Properties for sale in UAE"} />
             <PropertyHeader title={"Properties for sale in UAE"} property={"165,419 properties"} />
             <PropertyStore/>
             <PropertyCards/>

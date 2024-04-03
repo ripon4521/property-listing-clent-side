@@ -1,7 +1,7 @@
 
 
 
-const RentSideStore = () => {
+const CommerCialSideStore = () => {
     return (
         <div className=" ">
          
@@ -43,4 +43,4 @@ const RentSideStore = () => {
     );
 };
 
-export default RentSideStore;
+export default CommerCialSideStore;

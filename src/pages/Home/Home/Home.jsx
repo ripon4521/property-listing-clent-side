@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Banner from "../Banner/Banner";
 import DawonloadApp from "../DawonloadApp/DawonloadApp";
 import ExploreNewProjects from "../ExploreNewProjects/ExploreNewProjects";
@@ -8,6 +9,9 @@ import SuperCharge from "../SuperCharge/SuperCharge";
 const Home = () => {
   return (
     <div>
+      <Helmet>
+        <title>Prperty Finder || Home</title>
+      </Helmet>
 
       <Banner />
       <SuperCharge />
@@ -15,7 +19,6 @@ const Home = () => {
       <ExploreNewProjects />
       <MarketExplore />
       <LookingAdvertise />
-
     </div>
   );
 };
