@@ -9,7 +9,7 @@ const PropertySale = () => {
     return (
         <div >
             <RouteSelection/>
-            <PropertyHeader/>
+            <PropertyHeader title={"Properties for sale in UAE"} property={"165,419 properties"} />
             <PropertyStore/>
             <PropertyCards/>
             <TermsandCondition/>

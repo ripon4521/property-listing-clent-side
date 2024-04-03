@@ -6,6 +6,7 @@ import Home from "../pages/Home/Home/Home";
 import Main from "../Layout/Main";
 import FindAgent from "../pages/FindAgent/FindAgent/FindAgent";
 import Buy from "../pages/Buy/Buy/Buy";
+import Rent from "../pages/Rent/Rent/Rent";
   
 
 
@@ -23,6 +24,9 @@ export const router = createBrowserRouter([
         },{
           path:'/buy',
           element:<Buy/>
+        },{
+          path:'/rent',
+          element:<Rent/>
         }
       ],
     },

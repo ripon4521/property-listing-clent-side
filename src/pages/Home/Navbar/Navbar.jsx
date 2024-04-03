@@ -9,9 +9,9 @@ const Navbar = () => {
         <li className="hover:text-red-500">
         <Link to="/buy">Buy</Link>
       </li>
-      <li className="hover:text-red-500">
+      <Link to="/rent" className="hover:text-red-500">
         <a>Rent</a>
-      </li>
+      </Link>
       <li className="hover:text-red-500">
         <a>Commercial</a>
       </li>
@@ -51,7 +51,7 @@ const Navbar = () => {
   const largeDeviceNavlink = (
     <>
       <li className="hover:text-red-500"><Link to="/buy">Buy</Link> </li>
-      <li className="hover:text-red-500"><Link>Rent</Link></li>
+      <li className="hover:text-red-500"><Link to="/rent">Rent</Link></li>
       <li className="hover:text-red-500"><Link>Commercial</Link></li>
       <li className="hover:text-red-500"><Link>New Projects</Link></li>
       <li className="hover:text-red-500"><Link to="/findAgent">Find Agents</Link></li>
