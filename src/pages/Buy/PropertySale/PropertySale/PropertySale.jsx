@@ -1,3 +1,4 @@
+import TermsandCondition from "../../../../components/PropertyTerms&Condition/TermsandCondition";
 import PropertyCards from "../PropertyCards/PropertyCards";
 import PropertyHeader from "../PropertyHeader/PropertyHeader";
 import PropertyStore from "../PropertyStore/PropertyStore";
@@ -6,11 +7,12 @@ import RouteSelection from "../RouteSelection/RouteSelection";
 
 const PropertySale = () => {
     return (
-        <div className="max-w-6xl mx-auto px-2">
+        <div >
             <RouteSelection/>
             <PropertyHeader/>
             <PropertyStore/>
             <PropertyCards/>
+            <TermsandCondition/>
         </div>
     );
 };

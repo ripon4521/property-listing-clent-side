@@ -2,7 +2,8 @@
 
 const PropertyStore = () => {
     return (
-        <div className="bg-[#F8F3FF] px-2 py-5 mt-5">
+        <div className="max-w-6xl mx-auto px-2">
+            <div className="bg-[#F8F3FF] px-2 py-5 mt-5 ">
             <div className="flex justify-around  rounded-md">
             <p className="font-opanSans hover:underline text-gray-500">Apartments (109,604)</p>
             <p className="font-opanSans hover:underline text-gray-500">Villas (31,946)</p>
@@ -24,6 +25,7 @@ const PropertyStore = () => {
             <p className="font-opanSans hover:underline text-gray-500">Land (4,249)</p>
             </div>
 
+        </div>
         </div>
     );
 };
