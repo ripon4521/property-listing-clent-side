@@ -1,5 +1,6 @@
 import RouteSelection from "../../Buy/PropertySale/RouteSelection/RouteSelection";
 import DataGuruBanner from "../DataGuruBanner/DataGuruBanner";
+import DataGuruFeauters from "../DataGuruFeauters/DataGuruFeauters";
 
 
 const ExploreWithDataGuru = () => {
@@ -11,6 +12,7 @@ const ExploreWithDataGuru = () => {
             <RouteSelection  title={"Explore Dubai"}/>
             </div>
             <DataGuruBanner/>
+            <DataGuruFeauters/>
             
         </div>
     );
