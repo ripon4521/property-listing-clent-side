@@ -8,6 +8,7 @@ import FindAgent from "../pages/FindAgent/FindAgent/FindAgent";
 import Buy from "../pages/Buy/Buy/Buy";
 import Rent from "../pages/Rent/Rent/Rent";
 import Commercial from "../pages/Commercial/Commercial/Commercial";
+import ExploreWithDataGuru from "../pages/ExploreWithDataGuru/ExploreWithDataGuru/ExploreWithDataGuru";
   
 
 
@@ -31,6 +32,9 @@ export const router = createBrowserRouter([
         },{
           path:'/commertial',
           element:<Commercial/>
+        },{
+          path:'/exploreWithDataguru',
+          element:<ExploreWithDataGuru/>
         }
       ],
     },

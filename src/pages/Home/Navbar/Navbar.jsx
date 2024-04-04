@@ -29,14 +29,14 @@ const Navbar = () => {
         <details>
           <summary className="hover:text-red-500">Explore</summary>
           <ul className="w-40">
-            <li className="hover:text-red-500">
+            <Link to="/exploreWithDataguru" className="hover:text-red-500 cursor-pointer">
               <a>Explore With Data Guru</a>
-            </li>
+            </Link>
             <li className="hover:text-red-500">
               <a>Property Blog</a>
             </li>
             <li className="hover:text-red-500">
-              {" "}
+       
               <a>Know we rights</a>
             </li>
           </ul>
@@ -59,10 +59,10 @@ const Navbar = () => {
 
       <li>
         <details>
-          <summary className="hover:text-red-500">Explore</summary>
-          <ul className="w-40">
-            <li className="hover:text-red-500">
-              <Link>Explore With Data Guru</Link>
+          <summary className="hover:text-red-500 ">Explore</summary>
+          <ul className="w-40 z-10 ">
+            <li   className="hover:text-red-500 cursor-pointer">
+              <Link to="/exploreWithDataguru">Explore With Data Guru</Link>
             </li>
             <li className="hover:text-red-500">
               <Link>Property Blog</Link>

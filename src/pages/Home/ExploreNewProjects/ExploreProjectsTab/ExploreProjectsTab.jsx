@@ -23,7 +23,7 @@ const ExploreProjectsTab = () => {
     return (
         <div className="max-w-7xl mx-auto my-20 px-2 md:px-0 ">
            <div className="md:px-10 lg:px-0">  
-           <h1 className="text-4xl font-opanSans font-bold drop-shadow-md ">Explore new projects in the UAE</h1>
+           <h1 className="text-4xl font-opanSans font-bold drop-shadow-md ">Explore new projects in the <span className="text-yellow-400">UAE</span></h1>
           <p className=" my-2 font-opanSans text-gray-400 drop-shadow-md">Discover the latest off-plan properties and be informed.</p>
             </div>
 
