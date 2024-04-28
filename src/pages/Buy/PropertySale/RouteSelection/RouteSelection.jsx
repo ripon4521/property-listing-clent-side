@@ -9,6 +9,7 @@ const RouteSelection = ({title}) => {
             <p className="flex items-center text-[18px] text-gray-500 gap-2 font-opanSans"><FaHome></FaHome> <MdKeyboardArrowRight/> {title}</p>
         </div>
     );
+    
 };
 
 export default RouteSelection;
