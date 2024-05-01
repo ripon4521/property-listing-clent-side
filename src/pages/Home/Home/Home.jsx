@@ -6,6 +6,8 @@ import LookingAdvertise from "../LookingAdvertise/LookingAdvertise";
 import MarketExplore from "../MarketExplore/MarketExplore";
 import SuperCharge from "../SuperCharge/SuperCharge";
 import SatisfiedCustomer from "../SatisfiedCostomer/SatisfiedCustomer";
+import ExploremorePropertise from "../ExploreMoreProperties/ExploremorePropertise";
+import PropertyPriceAreea from "../PropertyPriceArea/PropertyPriceAreea";
 
 const Home = () => {
   return (
@@ -19,8 +21,13 @@ const Home = () => {
       <DawonloadApp />
       <ExploreNewProjects />
       <MarketExplore />
+      <PropertyPriceAreea/>
       <SatisfiedCustomer/>
       <LookingAdvertise />
+      <ExploremorePropertise/>
+     
+    
+
       
     </div>
   );

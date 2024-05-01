@@ -18,9 +18,9 @@ const PropertyPriceAreea = () => {
 
 
     return (
-        <div className='max-w-7xl mx-auto  '>
-            <h1 className='text-3xl font-opanSans px-5'>UAE property prices by area</h1>
-            <div role="tablist" className="tabs tabs-lifted font-opanSans my-5 text-xl font-semibold drop-shadow-md md:pl-20  lg:pl-0 mt-10 pl-5 md:pl-0">
+        <div className='max-w-7xl mx-auto   '>
+            <h1 className='text-3xl font-opanSans px-5 md:px-0 md:pt-10'><span className='text-yellow-400 font-bold drop-shadow-md'>UAE</span> property prices by area</h1>
+            <div role="tablist" className="tabs tabs-lifted font-opanSans my-5 text-xl font-semibold drop-shadow-md md:pl-20  lg:pl-0 mt-10 pl-5 ">
       {tabData.map((tab, index) => (
         <a
           key={index}
