@@ -9,12 +9,16 @@ const Navbar = () => {
         <li className="hover:text-red-500">
         <Link to="/buy">Buy</Link>
       </li>
-      <Link to="/rent" className="hover:text-red-500">
+  <li>
+  <Link to="/rent" className="hover:text-red-500">
         <a>Rent</a>
       </Link>
-      <Link to="/commertial" className="hover:text-red-500">
+  </li>
+     <li>
+     <Link to="/commertial" className="hover:text-red-500">
         <a>Commercial</a>
       </Link>
+     </li>
       <li className="hover:text-red-500">
         <a>New Projects</a>
       </li>
@@ -52,7 +56,7 @@ const Navbar = () => {
     <>
       <li className="hover:text-red-500"><Link to="/buy">Buy</Link> </li>
       <li className="hover:text-red-500"><Link to="/rent">Rent</Link></li>
-      <li className="hover:text-red-500"><Link to="commertial">Commercial</Link></li>
+      <li className="hover:text-red-500"><Link to="/commertial">Commercial</Link></li>
       <li className="hover:text-red-500"><Link>New Projects</Link></li>
       <li className="hover:text-red-500"><Link to="/findAgent">Find Agents</Link></li>
 
@@ -146,7 +150,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center gap-5 h-[300px]">
               <div className="w-[50%] flex flex-col gap-5">
                 <img
-                  src="https://www.propertyfinder.ae/static/icons/account-benefits.svg"
+                  src="https://img.freepik.com/free-vector/real-estate-concept-with-house_23-2148458651.jpg?t=st=1714543518~exp=1714547118~hmac=4f38930a5f513b69036831b0f97207cfea5a6ad480d010b388f842c30187a22a&w=740"
                   alt=""
                 />
                 <p className="font-opanSans">

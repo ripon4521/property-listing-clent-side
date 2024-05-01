@@ -18,7 +18,7 @@ const Banner = () => {
         <div className=''>
        <video className=''   src={bannerVideo} autoPlay loop muted />
        <div className="  text">
-       <h1 className='md:text-5xl text-3xl font-opanSans font-bold drop-shadow-md text-white p-2'> 
+       <h1 className='md:text-5xl text-3xl font-opanSans font-bold drop-shadow-md  p-2 text-yellow-300'> 
        {text}</h1>
        <div className='bg-slate-500 bg-opacity-50 md:px-16 px-2 rounded-md py-3 my-10 w-[350px] md:w-full'>
     

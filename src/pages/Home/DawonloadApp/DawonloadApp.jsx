@@ -11,7 +11,7 @@ const DawonloadApp = () => {
           <div className="flex items-center ">
             
             <img className="lg:w-40 w-36 h-48 md:h-56 " src="https://i.ibb.co/QfnbZ0R/Qr-Code.png " alt="" />
-            <img className="lg:w-56 w-40 h-72 md:h-80" src="https://www.propertyfinder.ae/static/images/apps/ios-ae-en.png" alt="" />
+            <img className="lg:w-56 w-40 h-72 md:h-80" src="https://static-assets.propertyfinder.com/images/apps/ios-ae-en.png" alt="" />
           </div>
             </div>
           
