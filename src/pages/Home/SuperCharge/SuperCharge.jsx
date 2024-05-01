@@ -1,5 +1,7 @@
 import { useState } from "react";
 import TabData1 from "./TabData/TabData1/TabData1";
+import TabData2 from "./TabData/TabData1/TabData2";
+import TabData3 from "./TabData/TabData1/TabData3";
 
 
 const SuperCharge = () => {
@@ -11,8 +13,8 @@ const SuperCharge = () => {
 
   const tabData = [
     { label: 'Rent', content:<TabData1/> },
-    { label: 'Buy', content: <TabData1/> },
-    { label: 'Invest', content: <TabData1/> }
+    { label: 'Buy', content: <TabData2/> },
+    { label: 'Invest', content: <TabData3/> }
   ];
 
     return (
