@@ -1,5 +1,6 @@
 import RouteSelection from "../../Buy/PropertySale/RouteSelection/RouteSelection";
 import PropertyMap from "../../Home/PropertyPriceArea/PropertyMap";
+import PropertyPriceAreea from "../../Home/PropertyPriceArea/PropertyPriceAreea";
 import DataGuruBanner from "../DataGuruBanner/DataGuruBanner";
 import DataGuruCarusel  from "../DataGuruCarusel/DataGuruCarusel";
 import DataGuruFeauters from "../DataGuruFeauters/DataGuruFeauters";
@@ -16,9 +17,10 @@ const ExploreWithDataGuru = () => {
             </div>
             <DataGuruBanner/>
             <DataGuruFeauters/>
-            {/* <div>
-            <PropertyMap/>
-            </div> */}
+            <div className="max-w-7xl mx-auto">
+                <PropertyPriceAreea/>
+            
+            </div>
         
 =
         </div>
