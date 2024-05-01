@@ -5,6 +5,7 @@ import ExploreNewProjects from "../ExploreNewProjects/ExploreNewProjects";
 import LookingAdvertise from "../LookingAdvertise/LookingAdvertise";
 import MarketExplore from "../MarketExplore/MarketExplore";
 import SuperCharge from "../SuperCharge/SuperCharge";
+import SatisfiedCustomer from "../SatisfiedCostomer/SatisfiedCustomer";
 
 const Home = () => {
   return (
@@ -18,7 +19,9 @@ const Home = () => {
       <DawonloadApp />
       <ExploreNewProjects />
       <MarketExplore />
+      <SatisfiedCustomer/>
       <LookingAdvertise />
+      
     </div>
   );
 };
