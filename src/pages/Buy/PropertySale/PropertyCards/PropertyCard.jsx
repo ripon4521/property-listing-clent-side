@@ -24,7 +24,7 @@ const PropertyCard = () => {
     return (
         <div className="my-5 border border-gray-300  rounded-md ">
             <div className="flex flex-col md:flex-row gap-5 " >
-            <img src={img} alt="" />
+            <img className="w-[500px]" src="https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661456.jpg?t=st=1714541298~exp=1714544898~hmac=0e63c54ec340082a6da23edac33b26f322c3e19a615730bd354c5eeff311b4a6&w=1380" alt="" />
             <div className="px-2">
                 <p className="font-opanSans text-gray-400 mt-5">Villa</p>
                 <h1 className="text-2xl font-opanSans font-semibold drop-shadow-md my-2">5,700,000 AED</h1>
