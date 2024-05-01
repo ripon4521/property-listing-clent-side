@@ -31,9 +31,9 @@ const Footer = () => {
   </div>
          </div>
          <div className='flex gap-4 ml-2 md:ml-8 md:mt-10 mt-5 flex-col md:flex-row md:justify-center lg:justify-start '>
-          <img className='w-40' src="https://www.propertyfinder.ae/static/apps/app-store.svg" alt="" />
-          <img className='w-40' src="https://www.propertyfinder.ae/static/apps/google-store.svg" alt="" />
-          <img className='w-40' src="https://www.propertyfinder.ae/static/apps/huawei-store.svg" alt="" />
+          <img className='w-40 rounded-md h-10' src="https://1000logos.net/wp-content/uploads/2020/08/apple-app-store-logo.jpg" alt="" />
+          <img className='w-40 rounded-md h-10' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN3IR789QVKneMt8qNTalw71CmNPuOfoIvtTCWXffTKgXTHzDIPSGuN9CCLBXCvuzpd1g&usqp=CAU" alt="" />
+          <img className='w-40 rounded-md h-10' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmDnD0La21SttzHWOpxlEk_yVZJUJGqVLEGk7kOeXu&s" alt="" />
          </div>
          <hr  className='mt-10'/>
          
