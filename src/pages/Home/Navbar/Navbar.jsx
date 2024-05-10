@@ -1,5 +1,5 @@
 import { FaFacebook, FaGoogle } from "react-icons/fa";
-import logo from "./favicon.ico";
+import logo from "./favicon.png";
 import { CiHeart } from "react-icons/ci";
 import { Link } from "react-router-dom";
 
@@ -111,12 +111,9 @@ const Navbar = () => {
               {navlink}
             </ul>
           </div>
-          <Link to="/" className="flex text-red-500 font-opanSans font-semibold  ">
-            <img className="" src={logo} alt="" />
-            <div className="">
-              <h2>Property</h2>
-              <p>Finder</p>
-            </div>
+          <Link to="/" className="flex text-red-500 font-opanSans font-semibold items-center ">
+            <img className="w-36 h-20" src="https://png.pngtree.com/png-clipart/20201208/original/pngtree-real-estate-logo-png-image_5587624.jpg" alt="" />
+            
           </Link>
         </div>
 
